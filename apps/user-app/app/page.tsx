@@ -1,4 +1,4 @@
-/* testing for ci*/
+/* testing for ci 2*/
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 import { authOptions } from "./lib/auth";
