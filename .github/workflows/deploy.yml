@@ -19,8 +19,8 @@ jobs:
       - name: Build and push docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./docker
-          file: Dockerfile.user
+          context: .
+          file: ./docker/Dockerfile.user
           push: true
           tags: dolphin687/week-18-class:latest
       - name: Verify Pushed Image
